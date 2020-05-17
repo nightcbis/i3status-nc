@@ -1,0 +1,1 @@
+int getHostname(char*);
