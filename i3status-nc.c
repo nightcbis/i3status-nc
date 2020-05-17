@@ -8,13 +8,13 @@
 
 int main()
 {
-	char hostname[15];
-	getHostname(hostname);
+	char hostname[30];
+	getHostname(hostname, 30);
 	
 	while(1)
 	{
 
-		printf("Hostname: %s\n", hostname);
+		printf("%s\n", hostname);
 		sleep(updateTime);
 	}
 	return(0);

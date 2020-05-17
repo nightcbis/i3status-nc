@@ -1,1 +1,1 @@
-int getHostname(char*);
+int getHostname(char*, int);
