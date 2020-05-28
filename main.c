@@ -12,10 +12,11 @@ int main()
 	char hostname[30];
 	char date[30];
 	getHostname(hostname, 30);
-	getDate(date);
+//	getDate(date);
 	
 	while(1)
 	{
+		getDate(date);
 
 		printf("%s %s\n", hostname, date);
 		sleep(updateTime);
